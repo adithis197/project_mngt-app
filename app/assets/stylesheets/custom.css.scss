@@ -1,0 +1,145 @@
+
+
+.nav>li>a:hover, .nav>li>a:focus {
+  text-decoration: none;
+}
+
+.user-name {
+  padding: 0 !important;
+  padding-left: 5px;
+  padding-top: 8px !important;
+  text-align: center;
+  background-color: #000 !important;
+  a {
+    color: white !important;
+    margin: 0 !important;
+  }
+  a:hover, a:focus {
+    background-color: #000 !important;
+    text-decoration: underline !important;
+  }
+}
+  
+.nav.navbar-right {
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+  
+.nav.navbar-nav {
+  .navbar-link {
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 13px;
+    padding: 8px;
+  }
+  .navbar-link:focus, .navbar-link:hover {
+    background: #3071a9;
+    color: #fff;
+  }
+  li a {
+    margin-right: 5px;
+  }
+}
+  
+.nav.navbar-right li {
+  .btn {
+    color: #fff !important;
+    margin-top: 8px;
+  }
+  .btn-danger:hover, .btn-danger:focus {
+    background-color: darken(#d9534f,20%) !important;
+    text-decoration: none !important;
+  }
+  .btn-primary:hover, .btn-primary:focus {
+    background-color: darken(#428bca,20%) !important;
+    text-decoration: none !important;
+  }
+  .logout {
+    width: fit-content;
+  }
+}
+  
+.btn-primary:visited, .btn-danger:visited {
+  color: #fff;
+}
+
+.features {
+  ul {
+    margin-left: 0;
+    padding-left: 15px;
+  }
+}
+  
+.jumbotron {
+  background-image: asset-url('meeting.jpg');
+  background-size: contain;
+  font-family: 'Helvetica Neue' !important;
+  font-stretch: expanded;
+  padding-top: 20px;
+  padding-bottom: 165px;
+  margin-left: 35px;
+  margin-right: 35px;
+  top: -40px;
+  text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
+  h2 {
+    font-size: 35px !important;
+    color: black;
+    top: -2px;
+    .lead {
+      font-family: 'Helvetica Neue' !important;
+      font-size: 30px !important;
+      color: black ;
+      top: 20px ;
+    }
+  }
+}
+
+.plan { 
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.price {
+  font-weight: 700;
+  size: 120%;
+}
+
+.sign-up {
+  margin-top: 5px;
+}
+
+.extra {
+  color: #5cb85c;
+}
+
+.no-left-padding {
+  padding-left: 0 !important
+}
+
+.no-right-padding {
+  padding-right: 0 !important
+}
+
+.table tr td {
+  a.main-link {
+    color: #428bca;
+  }
+  a.main-link:hover {
+    background: none;
+  }
+}
+
+.fa.fa-rocket {
+  background: #fff;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: red;
+  padding: 6px;
+}
+
+.navbar.navbar-static-top {
+  background: #000;
+  color: #fff !important;
+  padding-bottom: 5px;
+}
